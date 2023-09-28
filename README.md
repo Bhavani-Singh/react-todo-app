@@ -53,7 +53,7 @@ The application uses local storage to persist your tasks and completed tasks bet
 - React: https://reactjs.org/
 - React Icons: https://react-icons.github.io/react-icons/
 
-### Documentation
+## Documentation
 In this section, we will provide additional documentation and information that may be useful for developers and users of this application.
 
 ### Assumptions
