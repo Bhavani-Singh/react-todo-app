@@ -23,7 +23,7 @@ Before you begin, ensure you have met the following requirements:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/bhavani-singh/react-todo-app.git
+   git clone https://github.com/bhavani-singh/react-todo-app.git```
 
 2. Navigate to the project directory:
 cd react-todo-app
