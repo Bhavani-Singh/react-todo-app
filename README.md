@@ -23,7 +23,7 @@ Before you begin, ensure you have met the following requirements:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/bhavani-singh/react-todo-app.git```
+   git clone https://github.com/bhavani-singh/react-todo-app.git
 
 2. Navigate to the project directory:
 cd react-todo-app
@@ -40,15 +40,27 @@ npm start
 
 ### Functionality
 
--To add a new task, enter a title and description in the input fields and click the "Add" button.
--To mark a task as completed, click the checkmark icon next to the task.
--To view completed tasks, click the "Complete" button in the navigation.
--To remove a single task, click the delete icon next to the task.
--To clear all tasks, click the "Remove All" button in the navigation.
+- To add a new task, enter a title and description in the input fields and click the "Add" button.
+- To mark a task as completed, click the checkmark icon next to the task.
+- To view completed tasks, click the "Complete" button in the navigation.
+- To remove a single task, click the delete icon next to the task.
+- To clear all tasks, click the "Remove All" button in the navigation.
 
 ### Local Storage
 The application uses local storage to persist your tasks and completed tasks between sessions. Your data will be saved even if you close the browser.
 
 ### Technologies Used
--React: https://reactjs.org/
--React Icons: https://react-icons.github.io/react-icons/
+- React: https://reactjs.org/
+- React Icons: https://react-icons.github.io/react-icons/
+
+### Documentation
+In this section, we will provide additional documentation and information that may be useful for developers and users of this application.
+
+### Assumptions
+- We assume that users are familiar with basic task management concepts such as adding, completing, and deleting tasks.
+
+### Edge Cases
+- This application handles most common edge cases, including adding tasks with empty titles or descriptions, marking tasks as completed, and removing tasks.
+
+### Unhandled Edge Cases
+- While the application covers many scenarios, there might still be unhandled edge cases. Please report any issues or unexpected behavior, and we will address them promptly.
