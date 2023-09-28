@@ -88,6 +88,8 @@ h1 {
 }
 
 .btn-area {
+  display: flex;
+  justify-content: space-between;
   margin-bottom: 15px;
 }
 
@@ -106,12 +108,13 @@ h1 {
 .todo-list-item h3 {
   font-size: 25px;
   color: rgb(0, 230, 122);
+  margin: 0px;
 }
 
 .todo-list-item p {
   font-size: 14px;
   color: rgb(161, 161, 161);
-  margin-top: 8px;
+  /* margin-top: 8px; */
 }
 
 .icon {
@@ -131,4 +134,20 @@ h1 {
 
 .check-icon:hover {
   color: rgb(4, 196, 106);
+}
+
+.clearBtn {
+  background-color: rgb(228, 50, 50);
+  color: white;
+  border: none;
+  border-radius: 0px;
+  margin-top: 25px;
+  padding: 10px;
+  width: fit-content;
+  cursor: pointer;
+  margin-right: 25px;
+}
+
+.clearBtn:active {
+  background-color: rgb(175, 30, 30);
 }
